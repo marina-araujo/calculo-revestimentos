@@ -25,7 +25,7 @@ form.addEventListener('submit', function (e) {
     const qtdRev = getQtdRev(areaPar, areaRev);
     const areaSobra = getAreSobra(areaPar);
 
-    const msg = `A quantidade de peças necessárias é de: ${qtdRev} e a área recomendada a se considerar para comprar (com 20% de sobra) é ${areaSobra}m².`;
+    const msg = `Serão necessárias ${qtdRev} peças do revestimento e a área recomendada para comprar (com 20% de sobra) é de ${areaSobra}m².`;
     setResultado(msg, true);
 
     //console.log('evento previnido.');
