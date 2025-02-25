@@ -1,6 +1,3 @@
-// constantes globais:
-
-
 // capturar evento de submit do formulario
 const form = document.querySelector('#formulario');
 form.addEventListener('submit', function (e) {
